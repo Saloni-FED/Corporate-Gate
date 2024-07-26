@@ -9,7 +9,9 @@ const Footer = () => {
             <div className='col-lg-4 col-sm-6 col-md-6'>
               <div className='single-footer-widget'>
                 <Link href='/' className='d-inline-block logo'>
-                  <img src='/images/logo.png' alt='logo' />
+                  <h1  style={{color:"var(--mainColor)", fontFamily:"var(--fontFamily3)"}}>
+                    Corporate Gate
+                  </h1>
                 </Link>
 
                 <div className='newsletter-form'>
@@ -56,7 +58,7 @@ const Footer = () => {
 
             <div className='col-lg-2 col-sm-6 col-md-6'>
               <div className='single-footer-widget'>
-                <h3>Cryptocurrency</h3>
+                <h3>Blogs</h3>
                 <ul className='services-links'>
                   <li>
                     <Link href='/buy'>Buy Bitcoin</Link>
@@ -79,7 +81,7 @@ const Footer = () => {
 
             <div className='col-lg-3 col-sm-6 col-md-6'>
               <div className='single-footer-widget pl-5'>
-                <h3>Resources</h3>
+                <h3>Template</h3>
                 <ul className='quick-links'>
                   <li>
                     <Link href='/trade'>Trade</Link>
@@ -120,7 +122,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className='copyright-area'>
+        {/* <div className='copyright-area'>
           <div className='container'>
             <p>
               Copyright <strong>Novis</strong>. All Rights Reserved by{' '}
@@ -129,7 +131,7 @@ const Footer = () => {
               </Link>
             </p>
           </div>
-        </div>
+        </div> */}
       </footer>
     </>
   );
