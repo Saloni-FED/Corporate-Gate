@@ -67,6 +67,7 @@ Default CSS
   --optionalColor: #00a79d;
   --whiteColor: #ffffff;
   --blackColor: #000000;
+  --navbar:#EAECFE;
   --paragraphColor: #666666;
   --fontSize: 15px;
   --transition: 0.5s;
@@ -1786,7 +1787,7 @@ Buy & Sell Cryptocurrency Area CSS
 =================================================*/
 .buy-sell-cryptocurrency-area {
   position: relative;
-  z-index: 1;
+  /* z-index: 1; */
 }
 .buy-sell-cryptocurrency-area.bg-image {
   background-image: url(/images/bg.jpg);
@@ -6585,9 +6586,10 @@ Go Top CSS
   align-items: center;
   padding:5px;
   /* border: 3px solid black; */
-  position: absolute;
-  bottom:-4rem;
-  right:50px;
+  position: fixed;
+  z-index: 2;
+  bottom:4rem;
+  right:30px;
 }
 
 /* Feature para 
@@ -6600,3 +6602,89 @@ Go Top CSS
   width:5rem;
   height:5rem;
  }
+
+/* Template */
+
+
+.template-container {
+  /* display: flex; */
+  position: relative;
+  
+}
+
+.template-container .sidebar {
+  background-color: var(--navbar);
+  width: 300px;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.template-container .template {
+  max-width: 90%;
+  margin: 0 auto;
+  background-color: transparent;
+  padding: 20px;
+  flex-grow: 1;
+  z-index:9
+}
+
+.template-container .search-bar {
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 10px;
+}
+
+.template-container .search-bar input {
+  width: 400px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  /* border-radius: 5px; */
+}
+
+.template-container h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.template-container .popular-tags {
+  
+  margin-bottom: 20px;
+}
+
+.template-container .template-grid {
+  max-width: 90%;
+  margin: 0 auto;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.template-container .template-item {
+  /* background-color: white; */
+  border-radius: 10px;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.template-container .template-item:hover {
+  transform: scale(1.05);
+}
+
+.template-container .template-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.template-container .template-item p {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
