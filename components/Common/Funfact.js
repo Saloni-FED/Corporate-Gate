@@ -3,7 +3,7 @@ import React from "react";
 const Funfact = ({ pt100 }) => {
   return (
     <>
-      <div className={`funfacts-area ${pt100}`}>
+      <div className={`funfacts-area ${pt100}`} style={{fontFamily:"var(--fontFamily3)"}}>
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-3 col-md-3 col-sm-6 col-6">
@@ -11,12 +11,12 @@ const Funfact = ({ pt100 }) => {
                 <div className="icon">
                   <img src="/images/icon-bg.png" alt="image" />
                   <img
-                    src="/images/icon/icon8.png"
+                    src="/ai.png"
                     className="main-icon"
                     alt="image"
                   />
                 </div>
-                <h3>Secured by Escrow</h3>
+                <h3>AI Powered</h3>
               </div>
             </div>
 
@@ -25,12 +25,12 @@ const Funfact = ({ pt100 }) => {
                 <div className="icon">
                   <img src="/images/icon-bg.png" alt="image" />
                   <img
-                    src="/images/icon/icon9.png"
+                    src="/ai2.png"
                     className="main-icon"
                     alt="image"
                   />
                 </div>
-                <h3>2.7 Million Happy Users</h3>
+                <h3>Automatic Cover Letter</h3>
               </div>
             </div>
 
@@ -39,12 +39,12 @@ const Funfact = ({ pt100 }) => {
                 <div className="icon">
                   <img src="/images/icon-bg.png" alt="image" />
                   <img
-                    src="/images/icon/icon10.png"
+                    src="/ai3.png"
                     className="main-icon"
                     alt="image"
                   />
                 </div>
-                <h3>Thousands of Trusted Offers</h3>
+                <h3>professional Templates</h3>
               </div>
             </div>
 
@@ -53,12 +53,12 @@ const Funfact = ({ pt100 }) => {
                 <div className="icon">
                   <img src="/images/icon-bg.png" alt="image" />
                   <img
-                    src="/images/icon/icon11.png"
+                    src="/ai4.png"
                     className="main-icon"
                     alt="image"
                   />
                 </div>
-                <h3>Billions in Global Volume</h3>
+                <h3>Easy to Use</h3>
               </div>
             </div>
           </div>

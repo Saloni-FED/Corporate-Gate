@@ -9,11 +9,10 @@ const Platform = () => {
       <div className="cryptocurrency-platform-area">
         <div className="container-fluid">
           <div className="section-title">
-            <h2>The Most Trusted Cryptocurrency Platform</h2>
+            <h2>Our Recently Top Blog</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco.
+              our top blog will help you in your resume ,finance, and to help
+              you to get your dream job
             </p>
           </div>
 
@@ -29,10 +28,10 @@ const Platform = () => {
             }}
             breakpoints={{
               0: {
-                slidesPerView: 1, 
+                slidesPerView: 1,
               },
               922: {
-                slidesPerView: 2, 
+                slidesPerView: 2,
               },
             }}
             modules={[Autoplay, Pagination]}
@@ -47,20 +46,20 @@ const Platform = () => {
                 />
                 <div className="content">
                   <div className="icon">
-                    <img src="/images/icon/icon4.png" alt="image" />
+                    <img
+                      src="/Ellipse 66.png"
+                      alt="image"
+                      style={{ width: "95%" }}
+                    />
                   </div>
                   <h3>
-                    <Link href="/cryptocurrency-details">
-                      Protected by Insurance
-                    </Link>
+                    <Link href="/cryptocurrency-details">Finance</Link>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco.
+                    go to homepage and login through your gmail and create an
+                    account and get connected
                   </p>
-                  <Link href="/cryptocurrency-details" className="link-btn">
+                  <Link href="/blog" className="link-btn">
                     View More <i className="bx bx-chevron-right"></i>
                   </Link>
                 </div>
@@ -70,24 +69,24 @@ const Platform = () => {
             <SwiperSlide>
               <div className="single-cryptocurrency-platform-box">
                 <img
-                  src="/images/cryptocurrency-platform/cryptocurrency-platform-3.jpg"
+                  src="/featRect.png"
                   alt="image"
                   className="w-100"
                 />
                 <div className="content">
                   <div className="icon">
-                    <img src="/images/icon/icon5.png" alt="image" />
+                    <img
+                      src="/Ellipse 66.png"
+                      alt="image"
+                      style={{ width: "95%" }}
+                    />
                   </div>
                   <h3>
-                    <Link href="/cryptocurrency-details">
-                      Build Your Reputation
-                    </Link>
+                    <Link href="/cryptocurrency-details">Finance</Link>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco.
+                    go to homepage and login through your gmail and create an
+                    account and get connected
                   </p>
                   <Link href="/cryptocurrency-details" className="link-btn">
                     View More <i className="bx bx-chevron-right"></i>
@@ -105,18 +104,18 @@ const Platform = () => {
                 />
                 <div className="content">
                   <div className="icon">
-                    <img src="/images/icon/icon6.png" alt="image" />
+                    <img
+                      src="/Ellipse 66.png"
+                      alt="image"
+                      style={{ width: "95%" }}
+                    />
                   </div>
                   <h3>
-                    <Link href="/cryptocurrency-details">
-                      Earn Extra Income
-                    </Link>
+                    <Link href="/cryptocurrency-details">Finance</Link>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco.
+                    go to homepage and login through your gmail and create an
+                    account and get connected
                   </p>
                   <Link href="/cryptocurrency-details" className="link-btn">
                     View More <i className="bx bx-chevron-right"></i>
@@ -134,19 +133,21 @@ const Platform = () => {
                 />
                 <div className="content">
                   <div className="icon">
-                    <img src="/images/icon/icon7.png" alt="image" />
+                    <img
+                      src="/Ellipse 66.png"
+                      alt="image"
+                      style={{ width: "95%" }}
+                    />
                   </div>
                   <h3>
-                    <Link href="/cryptocurrency-details">Secure Storage</Link>
+                    <Link href="/cryptocurrency-details">Finance</Link>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco.
+                    go to homepage and login through your gmail and create an
+                    account and get connected
                   </p>
                   <Link href="/cryptocurrency-details" className="link-btn">
-                    View More <i className="bx bx-chevron-right"></i>
+                    view More <i className="bx bx-chevron-right"></i>
                   </Link>
                 </div>
               </div>

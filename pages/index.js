@@ -26,7 +26,7 @@ const Index = () => {
 
       <BuySell pt70="pt-70" />
 
-      <AccountCreate title="Get Started in a Few Minutes" />
+      <AccountCreate title="Get started in Three Easy Steps" />
 
       <Platform />
 

@@ -61,9 +61,19 @@ const Banner = () => {
   }, [coinSymbol]);
   return (
     <>
-      <div className="main-banner-area" style={{paddingTop:"10rem", paddingBottom:"10rem"}}>
+      <div
+        className="main-banner-area"
+        style={{
+          paddingTop: "10rem",
+          paddingBottom: "10rem",
+          fontFamily: "var(--fontFamily3)",
+        }}
+      >
+        <div className="chat-bot">
+          <img src="/bot.png" style={{width:"4rem"}}/>
+        </div>
         <div className="container">
-          <div className="main-banner-box" >
+          <div className="main-banner-box">
             {/* <div className="currency-selection">
               <label>YOU PAY</label>
               <input
@@ -117,68 +127,39 @@ const Banner = () => {
                 </ul>
               </div>
             </div> */}
+            <h3>Automated AI generated Cover letter</h3>
             <p>
-              Hloohvgfutyuokp',;.
+              get AI powered generated cover letter through your resume in just
+              one simple click and get your cover letter in your hands
             </p>
-
-            {/* <ul className="features-list">
-              <li>
-                <div className="d-flex align-items-center">
-                  <span className="first-span">
-                    <i className="fas fa-minus"></i>
-                    2.00 USD
-                  </span>
-                  <span className="second-span">TOTAL CARD FEES</span>
-                </div>
-              </li>
-              <li>
-                <div className="d-flex align-items-center">
-                  <span className="first-span">
-                    <i className="fas fa-divide"></i>
-                    47202
-                  </span>
-                  <span className="second-span">CONVERSION RATE</span>
-                </div>
-              </li>
-            </ul>
-
-            <div className="currency-selection">
-              <label>YOU RECEIVE</label>
-              <input
-                type="text"
-                value={conversionValue * cryptoQuantity}
-                onChange={(e) => e}
-              />
-              <div className="dropdown">
-                <button
-                  className="dropdown-toggle"
-                  type="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  <img src={imageTwo} alt="image" /> {nameTwo}
-                </button>
-              </div>
-            </div> */}
 
             <a
               href={`https://www.coinbase.com/accounts?quantity=${cryptoQuantity}`}
               target="_blank"
               className="coinbaseBtn"
             >
-              <i className="bx bxs-hand-right"></i> Upload Resume
+              <img
+                src="/upload.png"
+                style={{ width: "30px", height: "auto" }}
+              />{" "}
+              Upload Resume
             </a>
           </div>
 
           <div className="row align-items-center m-0">
             <div className="col-xl-6 col-lg-6 col-md-12 p-0">
               <div className="main-banner-content">
-                <h1>Buy & Sell Cryptocurrency Easy, Fast and Secure!</h1>
+                <h1
+                  style={{
+                    fontWeight: "400",
+                    fontFamily: "var(--fontFamily4)",
+                  }}
+                >
+                  Get AI-powered Resume Analysis and Job Matching.
+                </h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  Use AI to optimize your resume, find the perfect job, and gain
+                  valuable career insights
                 </p>
                 <Link
                   href="https://www.coinbase.com/signup"
@@ -207,7 +188,7 @@ const Banner = () => {
           <img src="/images/shape/shape3.png" alt="image" />
         </div> */}
         <div className="shape5">
-          <img src="/bg-home.png" alt="image" style={{ width:"100%"}}/>
+          <img src="/bg-home.png" alt="image" style={{ width: "100%" }} />
         </div>
         {/* <div className="shape9">
           <img src="/images/shape/shape9.png" alt="image" />

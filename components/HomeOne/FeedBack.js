@@ -1,28 +1,27 @@
 const FeedBack = () => {
   return (
     <>
-      <div className="fedback-area pt-100 pb-70">
+      <div className="fedback-area pt-100 pb-70" style={{fontFamily:"var(--fontFamily3)"}}>
         <div className="container">
           <div className="section-title">
             <h2>Trusted by Thousands of Users</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco.
+              our top blog will help you in your resume ,finance, and to help
+              you to get your dream job
             </p>
           </div>
 
-          <div className="row justify-content-center">
+          <div className="row justify-content-center" style={{fontFamily:"var(--fontFamily3)"}}>
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="single-feedback-box">
                 <div className="rating">
-                  <img src="/images/star.png" alt="image" />
-                  <img src="/images/star.png" alt="image" />
-                  <img src="/images/star.png" alt="image" />
-                  <img src="/images/star.png" alt="image" />
-                  <img src="/images/star.png" alt="image" />
+                  <img src="Star 1.png" alt="image" />
+                  <img src="Star 1.png" alt="image" />
+                  <img src="Star 1.png" alt="image" />
+                  <img src="Star 1.png" alt="image" />
+                  <img src="Star 1.png" alt="image" />
                 </div>
-                <p>
+                <p style={{fontFamily:"var(--fontFamily3)"}}>
                   On the other hand, we denounce with righteous indignation and
                   dislike men who are so beguiled demoralized by the charms of
                   pleasure of the moment, so blinded by desire, that they cannot
@@ -44,13 +43,13 @@ const FeedBack = () => {
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="single-feedback-box">
                 <div className="rating">
-                  <img src="/images/star.png" alt="image" />
-                  <img src="/images/star.png" alt="image" />
-                  <img src="/images/star.png" alt="image" />
-                  <img src="/images/star.png" alt="image" />
-                  <img src="/images/star.png" alt="image" />
+                  <img src="Star 1.png" alt="image" />
+                  <img src="Star 1.png" alt="image" />
+                  <img src="Star 1.png" alt="image" />
+                  <img src="Star 1.png" alt="image" />
+                  <img src="Star 1.png" alt="image" />
                 </div>
-                <p>
+                <p style={{fontFamily:"var(--fontFamily3)"}}>
                   On the other hand, we denounce with righteous indignation and
                   dislike men who are so beguiled demoralized by the charms of
                   pleasure of the moment, so blinded by desire, that they cannot
@@ -72,13 +71,13 @@ const FeedBack = () => {
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="single-feedback-box">
                 <div className="rating">
-                  <img src="/images/star.png" alt="image" />
-                  <img src="/images/star.png" alt="image" />
-                  <img src="/images/star.png" alt="image" />
-                  <img src="/images/star.png" alt="image" />
-                  <img src="/images/star.png" alt="image" />
+                  <img src="Star 1.png" alt="image" />
+                  <img src="Star 1.png" alt="image" />
+                  <img src="Star 1.png" alt="image" />
+                  <img src="Star 1.png" alt="image" />
+                  <img src="Star 1.png" alt="image" />
                 </div>
-                <p>
+                <p style={{fontFamily:"var(--fontFamily3)"}}>
                   On the other hand, we denounce with righteous indignation and
                   dislike men who are so beguiled demoralized by the charms of
                   pleasure of the moment, so blinded by desire, that they cannot
