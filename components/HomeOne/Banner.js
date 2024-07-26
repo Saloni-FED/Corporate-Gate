@@ -64,7 +64,7 @@ const Banner = () => {
       <div className="main-banner-area" style={{paddingTop:"10rem", paddingBottom:"10rem"}}>
         <div className="container">
           <div className="main-banner-box" >
-            <div className="currency-selection">
+            {/* <div className="currency-selection">
               <label>YOU PAY</label>
               <input
                 type="text"
@@ -116,9 +116,12 @@ const Banner = () => {
                     ))}
                 </ul>
               </div>
-            </div>
+            </div> */}
+            <p>
+              Hloohvgfutyuokp',;.
+            </p>
 
-            <ul className="features-list">
+            {/* <ul className="features-list">
               <li>
                 <div className="d-flex align-items-center">
                   <span className="first-span">
@@ -156,14 +159,14 @@ const Banner = () => {
                   <img src={imageTwo} alt="image" /> {nameTwo}
                 </button>
               </div>
-            </div>
+            </div> */}
 
             <a
               href={`https://www.coinbase.com/accounts?quantity=${cryptoQuantity}`}
               target="_blank"
               className="coinbaseBtn"
             >
-              <i className="bx bxs-hand-right"></i> Buy With Visa
+              <i className="bx bxs-hand-right"></i> Upload Resume
             </a>
           </div>
 
