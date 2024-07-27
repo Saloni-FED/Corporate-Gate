@@ -82,7 +82,7 @@ const Navbar = () => {
               <ul className="navbar-nav">
                 <li className="nav-item">
                   <Link
-                    href="#"
+                    href="/"
                     className=" nav-link"
                     style={{ display: "flex", gap: "4px" }}
                   >
@@ -180,7 +180,7 @@ const Navbar = () => {
                 </li>
 
                 <li className="nav-item">
-                  <Link href="#" className=" nav-link">
+                  <Link href="/analyze" className=" nav-link">
                     Resume Analysis
                   </Link>
 
@@ -271,11 +271,11 @@ const Navbar = () => {
                 </li>
 
                 <li className="nav-item megamenu">
-                  <Link href="#" className="dropdown-toggle nav-link">
+                  <Link href="#" className=" nav-link">
                     Cover Letter
                   </Link>
 
-                  <ul className="dropdown-menu">
+                  {/* <ul className="dropdown-menu">
                     <li className="nav-item">
                       <Link
                         href="/buy/"
@@ -347,15 +347,15 @@ const Navbar = () => {
                         View All Coins
                       </Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
 
                 <li className="nav-item megamenu">
-                  <Link href="#" className="dropdown-toggle nav-link">
+                  <Link href="#" className="nav-link">
                     Blog
                   </Link>
 
-                  <ul className="dropdown-menu">
+                  {/* <ul className="dropdown-menu">
                     <li className="nav-item">
                       <Link
                         href="/sell/"
@@ -427,7 +427,7 @@ const Navbar = () => {
                         View All Coins
                       </Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
 
                 {/* <li className="nav-item">
@@ -459,7 +459,7 @@ const Navbar = () => {
                       </Link>
                     </li>
 
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                       <Link
                         href="/guides/"
                         className={`nav-link ${
@@ -469,9 +469,9 @@ const Navbar = () => {
                         <i className="bx bx-book"></i>
                         Guides
                       </Link>
-                    </li>
+                    </li> */}
 
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                       <Link
                         href="/wallet/"
                         className={`nav-link ${
@@ -481,7 +481,7 @@ const Navbar = () => {
                         <i className="bx bx-wallet"></i>
                         Wallets
                       </Link>
-                    </li>
+                    </li> */}
 
                     <li className="nav-item">
                       <Link
@@ -507,7 +507,7 @@ const Navbar = () => {
                       </Link>
                     </li>
 
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                       <Link
                         href="/affiliate/"
                         className={`nav-link ${
@@ -517,15 +517,15 @@ const Navbar = () => {
                         <i className="bx bxs-paper-plane"></i>
                         Affiliates
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </li>
                 <li className="nav-item megamenu support">
-                  <Link href="#" className="dropdown-toggle nav-link">
+                  <Link href="/template" className=" nav-link">
                     Template
                   </Link>
 
-                  <ul className="dropdown-menu">
+                  {/* <ul className="dropdown-menu">
                     <li className="nav-item">
                       <Link
                         href="/faq/"
@@ -597,7 +597,7 @@ const Navbar = () => {
                         Affiliates
                       </Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
               </ul>
 
