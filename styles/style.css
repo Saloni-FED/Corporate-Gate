@@ -6723,11 +6723,12 @@ Go Top CSS
 
 @media (max-width: 480px) {
   .custom-header h1 {
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
   }
 
   .custom-header p {
-    font-size: 0.8em;
+    /* font-size: 0.8em; */
+    margin-top: -10px;
   }
 
   .custom-header .custom-upload-btn,
@@ -6750,14 +6751,15 @@ Go Top CSS
 }
 
 .custom-resume-list ul li {
-  padding:20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0;
+  padding : 1rem 2rem;
   border-bottom: 1px solid #ddd;
 }
-
+.custom-resume-list ul li img{
+  width:2rem;
+}
 .custom-resume-list .custom-actions a {
   margin: 0 10px;
   text-decoration: none;
@@ -6770,12 +6772,17 @@ Go Top CSS
 
 @media (max-width: 768px) {
   .custom-resume-list ul li {
-    flex-direction: column;
+    padding :1rem 0.5rem ;
+    flex-direction: row;
     align-items: flex-start;
   }
 
-  .custom-resume-list .custom-actions {
-    margin-top: 10px;
+  .custom-resume-list .custom-actions a{
+    margin:0 4px;
+  }
+  
+  .custom-resume-list ul li img{
+    width:1rem
   }
 }
 
@@ -6786,6 +6793,7 @@ Go Top CSS
 
   .custom-resume-list .custom-actions a {
     font-size: 0.9em;
+
   }
 }
 .custom-app {
@@ -6832,7 +6840,7 @@ Go Top CSS
 
 @media (max-width:1000px){
   .custom-app {
-    flex-wrap: wrap;
+    flex-wrap:wrap-reverse;
   }
   .custom-header .img-head{
     width:100px;
