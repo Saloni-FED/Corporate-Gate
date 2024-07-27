@@ -56,7 +56,7 @@ const SkillMatching = () => {
                       style={{width:"8.4rem"}}
                     />
                    <img src="/imgSkill/reading.png" alt="" style={{marginTop:"1.5rem"}}/>
-                   <img src="/imgSkill/book.png" alt="" style={{width:"8.5rem", marginLeft:"2rem", marginTop:"1rem"}}/>
+                   <img src="/imgSkill/book.png" alt="" style={{width:"8.5rem", marginLeft:"3.3rem", marginTop:"1rem"}}/>
                   </div>
                 </div>
               );
