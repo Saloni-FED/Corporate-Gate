@@ -16,7 +16,7 @@ const BuySell = ({ pt70 }) => {
           <div className="row justify-content-center">
             <div className="col-xl-6 col-lg-12 col-md-12">
               <div className="buy-sell-cryptocurrency-image">
-                <img src="/sideImg.png" alt="image" style={{marginTop:"3rem"}}/>
+                <img src="/Group 57.png" alt="image" style={{marginTop:"3rem"}}/>
               </div>
             </div>
 
