@@ -48,9 +48,10 @@ const Navbar = () => {
                 )}
               </div>
               <div className="logo">
-                <Link href="/">
+                {/* <Link href="/">
                   <img src="/images/logo.png" alt="logo" />
-                </Link>
+                </Link> */}
+                <p style={{color:"var(--mainColor)", fontFamily:"var(--fontFamily4)", fontWeight:"bolder", fontSize:"18px"}}>Corporate Gate</p>
               </div>
             </div>
           </div>
@@ -616,7 +617,7 @@ const Navbar = () => {
                   </div>
                   <div className="option-item d-none d-lg-block">
                     <Link href="/contact/" className="nav-btn">
-                      <img src="/icon.png" style={{width:"20px"}}/>
+                      <img src="/icon.png" style={{ width: "20px" }} />
                       contact us
                     </Link>
                   </div>

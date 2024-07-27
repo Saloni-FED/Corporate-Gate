@@ -1551,7 +1551,7 @@ Main Banner Area CSS
   /* /* left: 0; */
 
   bottom: 0;
-  top: 5px;
+  /* top: 5px; */
   z-index: -1;
 }
 

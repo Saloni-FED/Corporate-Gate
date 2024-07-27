@@ -178,21 +178,22 @@ const Banner = () => {
         </div>
 
         {/* Shape Images */}
-        {/* <div className="shape1">
+        <div className="shape1">
           <img src="/images/shape/shape1.png" alt="image" />
-        </div> */}
-        {/* <div className="shape2">
-          <img src="/images/shape/shape2.png" alt="image" />
-        </div> */}
-        {/* <div className="shape3">
-          <img src="/images/shape/shape3.png" alt="image" />
-        </div> */}
-        <div className="shape5">
-          <img src="/bg-home.png" alt="image" style={{ width: "100%" }} />
         </div>
-        {/* <div className="shape9">
+        <div className="shape2">
+          <img src="/images/shape/shape2.png" alt="image" />
+        </div>
+        <div className="shape3">
+          <img src="/images/shape/shape3.png" alt="image" />
+        </div>
+        <div className="shape5">
+          {/* <img src="/bg-home.png" alt="image" style={{ width: "100%" }} /> */}
+          <img src="/images/shape/shape5.png" alt="image" />
+        </div>
+        <div className="shape9">
           <img src="/images/shape/shape9.png" alt="image" />
-        </div> */}
+        </div>
       </div>
     </>
   );
