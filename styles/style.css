@@ -6603,86 +6603,7 @@ Go Top CSS
 
 /* Template */
 
-.template-container {
-  /* display: flex; */
-  position: relative;
-}
 
-.template-container .sidebar {
-  background-color: var(--navbar);
-  width: 300px;
-  height: 100%;
-  position: absolute;
-  z-index: -1;
-}
-
-.template-container .template {
-  max-width: 90%;
-  margin: 0 auto;
-  background-color: transparent;
-  padding: 20px;
-  flex-grow: 1;
-  z-index: 9;
-}
-
-.template-container .search-bar {
-  max-width: 90%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: end;
-  margin-bottom: 10px;
-}
-
-.template-container .search-bar input {
-  width: 400px;
-  padding: 5px;
-  border: 1px solid #ccc;
-  /* border-radius: 5px; */
-}
-
-.template-container h1 {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.template-container .popular-tags {
-  margin-bottom: 20px;
-}
-
-.template-container .template-grid {
-  max-width: 90%;
-  margin: 0 auto;
-  z-index: 2;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-  gap: 20px;
-  padding: 20px;
-}
-
-.template-container .template-item {
-  /* background-color: white; */
-  border-radius: 10px;
-  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
-  text-align: center;
-  transition: transform 0.2s;
-}
-
-.template-container .template-item:hover {
-  transform: scale(1.05);
-}
-
-.template-container .template-item img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.template-container .template-item p {
-  padding: 10px;
-  font-size: 16px;
-  font-weight: bold;
-  margin: 0;
-}
 
 /* Analyzer Resume */
 .custom-sidebar {
@@ -6916,5 +6837,139 @@ Go Top CSS
   .custom-header .img-head{
     width:100px;
     margin: 1rem auto;
+  }
+}
+
+
+/* Template */
+.template-container {
+  position: relative;
+}
+
+.template-container .sidebar {
+  background-color: var(--navbar);
+  width: 300px;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.template-container .template {
+  max-width: 90%;
+  margin: 0 auto;
+  background-color: transparent;
+  padding: 20px;
+  flex-grow: 1;
+  z-index: 9;
+}
+
+.template-container .search-bar {
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 10px;
+}
+
+.template-container .search-bar input {
+  width: 400px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.template-container h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.template-container .popular-tags {
+  margin-bottom: 20px;
+}
+
+.template-container .template-grid {
+  max-width: 90%;
+  margin: 0 auto;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.template-container .template-item {
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.template-container .template-item:hover {
+  transform: scale(1.05);
+}
+
+.template-container .template-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.template-container .template-item p {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Responsive Design */
+
+@media (max-width: 1024px) {
+  .template-container .search-bar input {
+    width: 300px;
+  }
+
+  .template-container .template-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .template-container .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+  }
+
+  .template-container .template {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .template-container .search-bar {
+    max-width: 100%;
+    justify-content: center;
+  }
+
+  .template-container .search-bar input {
+    width: 250px;
+  }
+
+  .template-container .template-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .template-container .search-bar input {
+    width: 200px;
+    padding: 5px;
+  }
+
+  .template-container .template-grid {
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .template-container .template-item p {
+    font-size: 14px;
   }
 }
