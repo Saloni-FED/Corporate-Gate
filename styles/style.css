@@ -6585,7 +6585,7 @@ Go Top CSS
   padding: 5px;
   /* border: 3px solid black; */
   position: fixed;
-  z-index: 2;
+  z-index: 999;
   bottom: 4rem;
   right: 30px;
 }
