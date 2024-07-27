@@ -6799,7 +6799,7 @@ Go Top CSS
 .custom-app {
   display: flex;
   /* flex-wrap: wrap; */
-  height: 100%;
+  height: 44.3rem;
   font-family: Arial, sans-serif;
 }
 
@@ -6839,7 +6839,9 @@ Go Top CSS
 
 
 @media (max-width:1000px){
+
   .custom-app {
+    height:100%;
     flex-wrap:wrap-reverse;
   }
   .custom-header .img-head{

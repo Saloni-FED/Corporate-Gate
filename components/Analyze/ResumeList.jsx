@@ -7,8 +7,7 @@ const ResumeList = () => {
     { name: 'Samaira Singh', date: '12-04-2024' },
     { name: 'Samaira Singh', date: '12-04-2024' },
     { name: 'Samaira Singh', date: '12-04-2024' },
-    { name: 'Samaira Singh', date: '12-04-2024' },
-    { name: 'Samaira Singh', date: '12-04-2024' }
+    
   ];
 
   return (
